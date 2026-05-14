@@ -1,0 +1,8 @@
+[0.016s] Invoking command in '/home/ubuntu/ros2_ws/build/lab1_turtle_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/lab1_turtle_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/lab1_turtle_cpp -- -j2 -l2
+[0.038s] [31mCMake Error at CMakeLists.txt:9 (ament_target_dependencies):
+[0.038s]   Unknown CMake command "ament_target_dependencies".
+[0.039s] 
+[0.040s] [0m
+[0.040s] -- Configuring incomplete, errors occurred!
+[0.042s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.117s] Invoked command in '/home/ubuntu/ros2_ws/build/lab1_turtle_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/lab1_turtle_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/lab1_turtle_cpp -- -j2 -l2

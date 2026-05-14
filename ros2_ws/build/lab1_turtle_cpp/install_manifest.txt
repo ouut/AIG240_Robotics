@@ -1,0 +1,16 @@
+/home/ubuntu/ros2_ws/install/lab1_turtle_cpp/lib/lab1_turtle_cpp/square_driver
+/home/ubuntu/ros2_ws/install/lab1_turtle_cpp/share/ament_index/resource_index/package_run_dependencies/lab1_turtle_cpp
+/home/ubuntu/ros2_ws/install/lab1_turtle_cpp/share/ament_index/resource_index/parent_prefix_path/lab1_turtle_cpp
+/home/ubuntu/ros2_ws/install/lab1_turtle_cpp/share/lab1_turtle_cpp/environment/ament_prefix_path.sh
+/home/ubuntu/ros2_ws/install/lab1_turtle_cpp/share/lab1_turtle_cpp/environment/ament_prefix_path.dsv
+/home/ubuntu/ros2_ws/install/lab1_turtle_cpp/share/lab1_turtle_cpp/environment/path.sh
+/home/ubuntu/ros2_ws/install/lab1_turtle_cpp/share/lab1_turtle_cpp/environment/path.dsv
+/home/ubuntu/ros2_ws/install/lab1_turtle_cpp/share/lab1_turtle_cpp/local_setup.bash
+/home/ubuntu/ros2_ws/install/lab1_turtle_cpp/share/lab1_turtle_cpp/local_setup.sh
+/home/ubuntu/ros2_ws/install/lab1_turtle_cpp/share/lab1_turtle_cpp/local_setup.zsh
+/home/ubuntu/ros2_ws/install/lab1_turtle_cpp/share/lab1_turtle_cpp/local_setup.dsv
+/home/ubuntu/ros2_ws/install/lab1_turtle_cpp/share/lab1_turtle_cpp/package.dsv
+/home/ubuntu/ros2_ws/install/lab1_turtle_cpp/share/ament_index/resource_index/packages/lab1_turtle_cpp
+/home/ubuntu/ros2_ws/install/lab1_turtle_cpp/share/lab1_turtle_cpp/cmake/lab1_turtle_cppConfig.cmake
+/home/ubuntu/ros2_ws/install/lab1_turtle_cpp/share/lab1_turtle_cpp/cmake/lab1_turtle_cppConfig-version.cmake
+/home/ubuntu/ros2_ws/install/lab1_turtle_cpp/share/lab1_turtle_cpp/package.xml

@@ -1,0 +1,37 @@
+[0.464s] Invoking command in '/home/ubuntu/ros2_ws/src/lab1_turtle_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ubuntu/ros2_ws/build/lab1_turtle_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/lab1_turtle_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab1_turtle_py build --build-base /home/ubuntu/ros2_ws/build/lab1_turtle_py/build install --record /home/ubuntu/ros2_ws/build/lab1_turtle_py/install.log --single-version-externally-managed install_data
+[0.580s] running egg_info
+[0.581s] creating ../../build/lab1_turtle_py/lab1_turtle_py.egg-info
+[0.585s] writing ../../build/lab1_turtle_py/lab1_turtle_py.egg-info/PKG-INFO
+[0.585s] writing dependency_links to ../../build/lab1_turtle_py/lab1_turtle_py.egg-info/dependency_links.txt
+[0.586s] writing entry points to ../../build/lab1_turtle_py/lab1_turtle_py.egg-info/entry_points.txt
+[0.586s] writing requirements to ../../build/lab1_turtle_py/lab1_turtle_py.egg-info/requires.txt
+[0.586s] writing top-level names to ../../build/lab1_turtle_py/lab1_turtle_py.egg-info/top_level.txt
+[0.587s] writing manifest file '../../build/lab1_turtle_py/lab1_turtle_py.egg-info/SOURCES.txt'
+[0.601s] reading manifest file '../../build/lab1_turtle_py/lab1_turtle_py.egg-info/SOURCES.txt'
+[0.601s] writing manifest file '../../build/lab1_turtle_py/lab1_turtle_py.egg-info/SOURCES.txt'
+[0.602s] running build
+[0.602s] running build_py
+[0.603s] creating /home/ubuntu/ros2_ws/build/lab1_turtle_py/build
+[0.605s] creating /home/ubuntu/ros2_ws/build/lab1_turtle_py/build/lib
+[0.606s] creating /home/ubuntu/ros2_ws/build/lab1_turtle_py/build/lib/lab1_turtle_py
+[0.608s] copying lab1_turtle_py/__init__.py -> /home/ubuntu/ros2_ws/build/lab1_turtle_py/build/lib/lab1_turtle_py
+[0.610s] copying lab1_turtle_py/square_driver.py -> /home/ubuntu/ros2_ws/build/lab1_turtle_py/build/lib/lab1_turtle_py
+[0.610s] running install
+[0.610s] running install_lib
+[0.617s] creating /home/ubuntu/ros2_ws/install/lab1_turtle_py/lib/python3.12/site-packages/lab1_turtle_py
+[0.618s] copying /home/ubuntu/ros2_ws/build/lab1_turtle_py/build/lib/lab1_turtle_py/__init__.py -> /home/ubuntu/ros2_ws/install/lab1_turtle_py/lib/python3.12/site-packages/lab1_turtle_py
+[0.618s] copying /home/ubuntu/ros2_ws/build/lab1_turtle_py/build/lib/lab1_turtle_py/square_driver.py -> /home/ubuntu/ros2_ws/install/lab1_turtle_py/lib/python3.12/site-packages/lab1_turtle_py
+[0.621s] byte-compiling /home/ubuntu/ros2_ws/install/lab1_turtle_py/lib/python3.12/site-packages/lab1_turtle_py/__init__.py to __init__.cpython-312.pyc
+[0.621s] byte-compiling /home/ubuntu/ros2_ws/install/lab1_turtle_py/lib/python3.12/site-packages/lab1_turtle_py/square_driver.py to square_driver.cpython-312.pyc
+[0.623s] running install_data
+[0.624s] creating /home/ubuntu/ros2_ws/install/lab1_turtle_py/share/ament_index
+[0.624s] creating /home/ubuntu/ros2_ws/install/lab1_turtle_py/share/ament_index/resource_index
+[0.626s] creating /home/ubuntu/ros2_ws/install/lab1_turtle_py/share/ament_index/resource_index/packages
+[0.627s] copying resource/lab1_turtle_py -> /home/ubuntu/ros2_ws/install/lab1_turtle_py/share/ament_index/resource_index/packages
+[0.627s] copying package.xml -> /home/ubuntu/ros2_ws/install/lab1_turtle_py/share/lab1_turtle_py
+[0.627s] running install_egg_info
+[0.635s] Copying ../../build/lab1_turtle_py/lab1_turtle_py.egg-info to /home/ubuntu/ros2_ws/install/lab1_turtle_py/lib/python3.12/site-packages/lab1_turtle_py-0.0.0-py3.12.egg-info
+[0.646s] running install_scripts
+[0.702s] Installing square_driver script to /home/ubuntu/ros2_ws/install/lab1_turtle_py/lib/lab1_turtle_py
+[0.705s] writing list of installed files to '/home/ubuntu/ros2_ws/build/lab1_turtle_py/install.log'
+[0.718s] Invoked command in '/home/ubuntu/ros2_ws/src/lab1_turtle_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ubuntu/ros2_ws/build/lab1_turtle_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/lab1_turtle_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab1_turtle_py build --build-base /home/ubuntu/ros2_ws/build/lab1_turtle_py/build install --record /home/ubuntu/ros2_ws/build/lab1_turtle_py/install.log --single-version-externally-managed install_data

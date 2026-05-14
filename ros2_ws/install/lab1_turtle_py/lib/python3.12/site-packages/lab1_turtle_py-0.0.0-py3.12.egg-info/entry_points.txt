@@ -1,0 +1,2 @@
+[console_scripts]
+square_driver = lab1_turtle_py.square_driver:main

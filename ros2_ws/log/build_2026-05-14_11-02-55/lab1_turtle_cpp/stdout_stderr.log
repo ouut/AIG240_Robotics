@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:9 (ament_target_dependencies):
+  Unknown CMake command "ament_target_dependencies".
+
+[0m
+-- Configuring incomplete, errors occurred!
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1
