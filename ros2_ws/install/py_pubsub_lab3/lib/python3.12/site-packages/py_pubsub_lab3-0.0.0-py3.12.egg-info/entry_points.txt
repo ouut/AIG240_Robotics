@@ -1,0 +1,3 @@
+[console_scripts]
+listener = py_pubsub_lab3.listener:main
+talker = py_pubsub_lab3.talker:main

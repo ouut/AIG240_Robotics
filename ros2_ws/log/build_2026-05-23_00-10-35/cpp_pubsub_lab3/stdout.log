@@ -1,0 +1,24 @@
+[ 50%] Built target listener
+[ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[100%] [32m[1mLinking CXX executable talker[0m
+[100%] Built target talker
+-- Install configuration: ""
+-- Installing: /home/ubuntu/ros2_ws/install/cpp_pubsub_lab3/lib/cpp_pubsub_lab3/talker
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_ws/install/cpp_pubsub_lab3/lib/cpp_pubsub_lab3/talker" to ""
+-- Installing: /home/ubuntu/ros2_ws/install/cpp_pubsub_lab3/lib/cpp_pubsub_lab3/listener
+-- Set non-toolchain portion of runtime path of "/home/ubuntu/ros2_ws/install/cpp_pubsub_lab3/lib/cpp_pubsub_lab3/listener" to ""
+-- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_pubsub_lab3/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub_lab3
+-- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_pubsub_lab3/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub_lab3
+-- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_pubsub_lab3/share/cpp_pubsub_lab3/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_pubsub_lab3/share/cpp_pubsub_lab3/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_pubsub_lab3/share/cpp_pubsub_lab3/environment/path.sh
+-- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_pubsub_lab3/share/cpp_pubsub_lab3/environment/path.dsv
+-- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_pubsub_lab3/share/cpp_pubsub_lab3/local_setup.bash
+-- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_pubsub_lab3/share/cpp_pubsub_lab3/local_setup.sh
+-- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_pubsub_lab3/share/cpp_pubsub_lab3/local_setup.zsh
+-- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_pubsub_lab3/share/cpp_pubsub_lab3/local_setup.dsv
+-- Installing: /home/ubuntu/ros2_ws/install/cpp_pubsub_lab3/share/cpp_pubsub_lab3/package.dsv
+-- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_pubsub_lab3/share/ament_index/resource_index/packages/cpp_pubsub_lab3
+-- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_pubsub_lab3/share/cpp_pubsub_lab3/cmake/cpp_pubsub_lab3Config.cmake
+-- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_pubsub_lab3/share/cpp_pubsub_lab3/cmake/cpp_pubsub_lab3Config-version.cmake
+-- Up-to-date: /home/ubuntu/ros2_ws/install/cpp_pubsub_lab3/share/cpp_pubsub_lab3/package.xml

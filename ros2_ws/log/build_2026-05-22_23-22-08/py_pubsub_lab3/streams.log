@@ -1,0 +1,36 @@
+[0.304s] Invoking command in '/home/ubuntu/ros2_ws/src/py_pubsub_lab3': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ubuntu/ros2_ws/build/py_pubsub_lab3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/py_pubsub_lab3/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub_lab3 build --build-base /home/ubuntu/ros2_ws/build/py_pubsub_lab3/build install --record /home/ubuntu/ros2_ws/build/py_pubsub_lab3/install.log --single-version-externally-managed install_data
+[0.395s] running egg_info
+[0.401s] writing ../../build/py_pubsub_lab3/py_pubsub_lab3.egg-info/PKG-INFO
+[0.402s] writing dependency_links to ../../build/py_pubsub_lab3/py_pubsub_lab3.egg-info/dependency_links.txt
+[0.402s] writing entry points to ../../build/py_pubsub_lab3/py_pubsub_lab3.egg-info/entry_points.txt
+[0.403s] writing requirements to ../../build/py_pubsub_lab3/py_pubsub_lab3.egg-info/requires.txt
+[0.403s] writing top-level names to ../../build/py_pubsub_lab3/py_pubsub_lab3.egg-info/top_level.txt
+[0.417s] reading manifest file '../../build/py_pubsub_lab3/py_pubsub_lab3.egg-info/SOURCES.txt'
+[0.418s] writing manifest file '../../build/py_pubsub_lab3/py_pubsub_lab3.egg-info/SOURCES.txt'
+[0.418s] running build
+[0.419s] running build_py
+[0.419s] copying py_pubsub_lab3/talker.py -> /home/ubuntu/ros2_ws/build/py_pubsub_lab3/build/lib/py_pubsub_lab3
+[0.420s] running install
+[0.422s] running install_lib
+[0.428s] copying /home/ubuntu/ros2_ws/build/py_pubsub_lab3/build/lib/py_pubsub_lab3/talker.py -> /home/ubuntu/ros2_ws/install/py_pubsub_lab3/lib/python3.12/site-packages/py_pubsub_lab3
+[0.429s] byte-compiling /home/ubuntu/ros2_ws/install/py_pubsub_lab3/lib/python3.12/site-packages/py_pubsub_lab3/talker.py to talker.cpython-312.pyc
+[0.430s]   File "/home/ubuntu/ros2_ws/install/py_pubsub_lab3/lib/python3.12/site-packages/py_pubsub_lab3/talker.py", line 7
+[0.431s]     def __init__(self)
+[0.431s]                       ^
+[0.433s] SyntaxError: expected ':'
+[0.434s] 
+[0.434s] byte-compiling /home/ubuntu/ros2_ws/install/py_pubsub_lab3/lib/python3.12/site-packages/py_pubsub_lab3/listener.py to listener.cpython-312.pyc
+[0.434s]   File "/home/ubuntu/ros2_ws/install/py_pubsub_lab3/lib/python3.12/site-packages/py_pubsub_lab3/listener.py", line 6
+[0.435s]     class ListenerPyLab3(Node)
+[0.435s]                               ^
+[0.435s] SyntaxError: expected ':'
+[0.436s] 
+[0.437s] running install_data
+[0.437s] running install_egg_info
+[0.440s] removing '/home/ubuntu/ros2_ws/install/py_pubsub_lab3/lib/python3.12/site-packages/py_pubsub_lab3-0.0.0-py3.12.egg-info' (and everything under it)
+[0.441s] Copying ../../build/py_pubsub_lab3/py_pubsub_lab3.egg-info to /home/ubuntu/ros2_ws/install/py_pubsub_lab3/lib/python3.12/site-packages/py_pubsub_lab3-0.0.0-py3.12.egg-info
+[0.448s] running install_scripts
+[0.495s] Installing listener script to /home/ubuntu/ros2_ws/install/py_pubsub_lab3/lib/py_pubsub_lab3
+[0.496s] Installing talker script to /home/ubuntu/ros2_ws/install/py_pubsub_lab3/lib/py_pubsub_lab3
+[0.497s] writing list of installed files to '/home/ubuntu/ros2_ws/build/py_pubsub_lab3/install.log'
+[0.511s] Invoked command in '/home/ubuntu/ros2_ws/src/py_pubsub_lab3' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ubuntu/ros2_ws/build/py_pubsub_lab3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/py_pubsub_lab3/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub_lab3 build --build-base /home/ubuntu/ros2_ws/build/py_pubsub_lab3/build install --record /home/ubuntu/ros2_ws/build/py_pubsub_lab3/install.log --single-version-externally-managed install_data

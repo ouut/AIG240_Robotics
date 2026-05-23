@@ -1,0 +1,10 @@
+  File "/home/ubuntu/ros2_ws/install/py_pubsub_lab3/lib/python3.12/site-packages/py_pubsub_lab3/talker.py", line 3
+    import rclpy.node import Node
+                      ^^^^^^
+SyntaxError: invalid syntax
+
+  File "/home/ubuntu/ros2_ws/install/py_pubsub_lab3/lib/python3.12/site-packages/py_pubsub_lab3/listener.py", line 6
+    class ListenerPyLab3(Node)
+                              ^
+SyntaxError: expected ':'
+

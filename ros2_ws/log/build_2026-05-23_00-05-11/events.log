@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.000174] (-) JobUnselected: {'identifier': 'lab1_turtle_cpp'}
+[0.000285] (-) JobUnselected: {'identifier': 'lab1_turtle_py'}
+[0.000921] (-) JobUnselected: {'identifier': 'py_pubsub_lab3'}
+[0.001081] (cpp_pubsub_lab3) JobQueued: {'identifier': 'cpp_pubsub_lab3', 'dependencies': OrderedDict()}
+[0.001194] (cpp_pubsub_lab3) JobStarted: {'identifier': 'cpp_pubsub_lab3'}
+[0.006217] (cpp_pubsub_lab3) JobProgress: {'identifier': 'cpp_pubsub_lab3', 'progress': 'cmake'}
+[0.007384] (cpp_pubsub_lab3) JobProgress: {'identifier': 'cpp_pubsub_lab3', 'progress': 'build'}
+[0.008978] (cpp_pubsub_lab3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros2_ws/build/cpp_pubsub_lab3', '--', '-j2', '-l2'], 'cwd': '/home/ubuntu/ros2_ws/build/cpp_pubsub_lab3', 'env': OrderedDict({'VNCDESKTOP': '6089d2652825:1 (ubuntu)', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'QT_SCALE_FACTOR': '1', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'ubuntu', 'SUPERVISOR_GROUP_NAME': 'vnc', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': '6089d2652825', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/codium/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ubuntu', 'CHROME_DESKTOP': 'codium.desktop', 'OLDPWD': '/home/ubuntu/ros2_ws/src/py_pubsub_lab3/py_pubsub_lab3', 'TERM_PROGRAM_VERSION': '1.116.02821', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ubuntu/Desktop/codium.desktop', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/codium/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/codium/codium', 'LC_CTYPE': 'C.UTF-8', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-WWlDTyJgso,guid=7254e97d3945f183836618126a104bf2', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '1027', 'GNOME_KEYRING_CONTROL': '/home/ubuntu/.cache/keyring-7AH5P3', 'UBUNTU_MENUPROXY': '1', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'FC_FONTATIONS': '1', 'INSIDE_CAJA_PYTHON': '', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'SESSION_MANAGER': 'local/6089d2652825:@/tmp/.ICE-unix/61,unix/6089d2652825:/tmp/.ICE-unix/61', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LD_PRELOAD': '/lib/aarch64-linux-gnu/libgcc_s.so.1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'MATE', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-8c15132662.sock', 'SUPERVISOR_ENABLED': '1', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/home/ubuntu/.cache/keyring-7AH5P3/ssh', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/lab1_turtle_py:/home/ubuntu/ros2_ws/install/lab1_turtle_cpp:/opt/ros/jazzy', 'NO_AT_BRIDGE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'SUPERVISOR_SERVER_URL': 'unix:///var/run/supervisor.sock', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'SUPERVISOR_PROCESS_NAME': 'vnc', 'PWD': '/home/ubuntu/ros2_ws/build/cpp_pubsub_lab3', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/ros2_ws/install/lab1_turtle_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'MATE_DESKTOP_SESSION_ID': 'this-is-deprecated', 'TZ': 'America/Toronto', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/lab1_turtle_cpp:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntu/ros2_ws/install/lab1_turtle_py:/opt/ros/jazzy', 'QT_FONT_DPI': '96'}), 'shell': False}
+[0.026707] (cpp_pubsub_lab3) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099854] (-) TimerEvent: {}
+[0.122545] (cpp_pubsub_lab3) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.137587] (cpp_pubsub_lab3) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.142108] (cpp_pubsub_lab3) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.147995] (cpp_pubsub_lab3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.155553] (cpp_pubsub_lab3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.180003] (cpp_pubsub_lab3) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.181070] (cpp_pubsub_lab3) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199925] (-) TimerEvent: {}
+[0.212948] (cpp_pubsub_lab3) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.260849] (cpp_pubsub_lab3) StdoutLine: {'line': b'-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.267475] (cpp_pubsub_lab3) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.300080] (-) TimerEvent: {}
+[0.325152] (cpp_pubsub_lab3) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.325609] (cpp_pubsub_lab3) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.326130] (cpp_pubsub_lab3) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.327707] (cpp_pubsub_lab3) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.334199] (cpp_pubsub_lab3) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.334572] (cpp_pubsub_lab3) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.335288] (cpp_pubsub_lab3) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.337535] (cpp_pubsub_lab3) StdoutLine: {'line': b'-- Configuring done (0.3s)\n'}
+[0.369530] (cpp_pubsub_lab3) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.382589] (cpp_pubsub_lab3) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/ros2_ws/build/cpp_pubsub_lab3\n'}
+[0.400899] (-) TimerEvent: {}
+[0.402192] (cpp_pubsub_lab3) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o\x1b[0m\n'}
+[0.416943] (cpp_pubsub_lab3) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o\x1b[0m\n'}
+[0.501193] (-) TimerEvent: {}
+[0.602080] (-) TimerEvent: {}
+[0.704336] (-) TimerEvent: {}
+[0.805962] (-) TimerEvent: {}
+[0.906361] (-) TimerEvent: {}
+[1.006798] (-) TimerEvent: {}
+[1.109153] (-) TimerEvent: {}
+[1.209830] (-) TimerEvent: {}
+[1.310428] (-) TimerEvent: {}
+[1.385421] (cpp_pubsub_lab3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/cpp_pubsub_lab3/src/talker.cpp:9:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.385998] (cpp_pubsub_lab3) StderrLine: {'line': b'    9 | using namespace std::chrono_literals\n'}
+[1.386856] (cpp_pubsub_lab3) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.387107] (cpp_pubsub_lab3) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.387379] (cpp_pubsub_lab3) StderrLine: {'line': b'   10 | \n'}
+[1.387637] (cpp_pubsub_lab3) StderrLine: {'line': b'   11 | \x1b[32m\x1b[Kint\x1b[m\x1b[K main(int argc, char * argv[]){\n'}
+[1.389729] (cpp_pubsub_lab3) StderrLine: {'line': b'      | \x1b[32m\x1b[K~~~\x1b[m\x1b[K                                  \n'}
+[1.391866] (cpp_pubsub_lab3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/cpp_pubsub_lab3/src/talker.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.392159] (cpp_pubsub_lab3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/cpp_pubsub_lab3/src/talker.cpp:15:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.392505] (cpp_pubsub_lab3) StderrLine: {'line': b'   15 |     \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::WallRate rate(5Hz);\n'}
+[1.393925] (cpp_pubsub_lab3) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.394278] (cpp_pubsub_lab3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/cpp_pubsub_lab3/src/talker.cpp:19:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::data\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.394608] (cpp_pubsub_lab3) StderrLine: {'line': b'   19 |         msg,\x1b[01;31m\x1b[Kdata\x1b[m\x1b[K = "[cpp] lab3 hell #" + std::to_string(count++);\n'}
+[1.394927] (cpp_pubsub_lab3) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.396863] (cpp_pubsub_lab3) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kstd::data\x1b[m\x1b[K\n'}
+[1.397119] (cpp_pubsub_lab3) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/unordered_map:42\x1b[m\x1b[K,\n'}
+[1.398389] (cpp_pubsub_lab3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/13/functional:63\x1b[m\x1b[K,\n'}
+[1.398679] (cpp_pubsub_lab3) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/cpp_pubsub_lab3/src/talker.cpp:2\x1b[m\x1b[K:\n'}
+[1.399520] (cpp_pubsub_lab3) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/range_access.h:346:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::data\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.400965] (cpp_pubsub_lab3) StderrLine: {'line': b'  346 |     \x1b[01;36m\x1b[Kdata\x1b[m\x1b[K(initializer_list<_Tp> __il) noexcept\n'}
+[1.401267] (cpp_pubsub_lab3) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.402862] (cpp_pubsub_lab3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros2_ws/src/cpp_pubsub_lab3/src/talker.cpp:23:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Krate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.403177] (cpp_pubsub_lab3) StderrLine: {'line': b'   23 |         rclcpp::spin_some(node)\n'}
+[1.403468] (cpp_pubsub_lab3) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.405043] (cpp_pubsub_lab3) StderrLine: {'line': b'      |                                \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.405397] (cpp_pubsub_lab3) StderrLine: {'line': b'   24 |         \x1b[32m\x1b[Krate\x1b[m\x1b[K.sleep();\n'}
+[1.407009] (cpp_pubsub_lab3) StderrLine: {'line': b'      |         \x1b[32m\x1b[K~~~~\x1b[m\x1b[K                    \n'}
+[1.410490] (-) TimerEvent: {}
+[1.510990] (-) TimerEvent: {}
+[1.613026] (-) TimerEvent: {}
+[1.713731] (-) TimerEvent: {}
+[1.814122] (-) TimerEvent: {}
+[1.856589] (cpp_pubsub_lab3) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/talker.cpp.o] Error 1\n'}
+[1.857238] (cpp_pubsub_lab3) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2\n'}
+[1.857604] (cpp_pubsub_lab3) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.915067] (-) TimerEvent: {}
+[2.016001] (-) TimerEvent: {}
+[2.116768] (-) TimerEvent: {}
+[2.217255] (-) TimerEvent: {}
+[2.317881] (-) TimerEvent: {}
+[2.418242] (-) TimerEvent: {}
+[2.518966] (-) TimerEvent: {}
+[2.620856] (-) TimerEvent: {}
+[2.721218] (-) TimerEvent: {}
+[2.821590] (-) TimerEvent: {}
+[2.923215] (-) TimerEvent: {}
+[3.023599] (-) TimerEvent: {}
+[3.123869] (-) TimerEvent: {}
+[3.134998] (cpp_pubsub_lab3) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[3.224161] (-) TimerEvent: {}
+[3.324471] (-) TimerEvent: {}
+[3.402595] (cpp_pubsub_lab3) StdoutLine: {'line': b'[ 75%] Built target listener\n'}
+[3.404012] (cpp_pubsub_lab3) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.404736] (cpp_pubsub_lab3) CommandEnded: {'returncode': 2}
+[3.416548] (cpp_pubsub_lab3) JobEnded: {'identifier': 'cpp_pubsub_lab3', 'rc': 2}
+[3.424718] (-) TimerEvent: {}
+[3.427056] (-) EventReactorShutdown: {}
