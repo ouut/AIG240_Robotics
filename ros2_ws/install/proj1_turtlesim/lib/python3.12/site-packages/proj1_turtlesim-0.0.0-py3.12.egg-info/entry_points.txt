@@ -1,0 +1,2 @@
+[console_scripts]
+input = proj1_turtlesim.input:main

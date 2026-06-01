@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/proj1_turtlesim/proj1_turtlesim.egg-info
+writing ../build/proj1_turtlesim/proj1_turtlesim.egg-info/PKG-INFO
+writing dependency_links to ../build/proj1_turtlesim/proj1_turtlesim.egg-info/dependency_links.txt
+writing entry points to ../build/proj1_turtlesim/proj1_turtlesim.egg-info/entry_points.txt
+writing requirements to ../build/proj1_turtlesim/proj1_turtlesim.egg-info/requires.txt
+writing top-level names to ../build/proj1_turtlesim/proj1_turtlesim.egg-info/top_level.txt
+writing manifest file '../build/proj1_turtlesim/proj1_turtlesim.egg-info/SOURCES.txt'
+reading manifest file '../build/proj1_turtlesim/proj1_turtlesim.egg-info/SOURCES.txt'
+writing manifest file '../build/proj1_turtlesim/proj1_turtlesim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/ros2_ws/src/build/proj1_turtlesim/build
+creating /home/ubuntu/ros2_ws/src/build/proj1_turtlesim/build/lib
+creating /home/ubuntu/ros2_ws/src/build/proj1_turtlesim/build/lib/proj1_turtlesim
+copying proj1_turtlesim/__init__.py -> /home/ubuntu/ros2_ws/src/build/proj1_turtlesim/build/lib/proj1_turtlesim
+copying proj1_turtlesim/input.py -> /home/ubuntu/ros2_ws/src/build/proj1_turtlesim/build/lib/proj1_turtlesim
+running install
+running install_lib
+creating /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/lib/python3.12/site-packages/proj1_turtlesim
+copying /home/ubuntu/ros2_ws/src/build/proj1_turtlesim/build/lib/proj1_turtlesim/__init__.py -> /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/lib/python3.12/site-packages/proj1_turtlesim
+copying /home/ubuntu/ros2_ws/src/build/proj1_turtlesim/build/lib/proj1_turtlesim/input.py -> /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/lib/python3.12/site-packages/proj1_turtlesim
+byte-compiling /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/lib/python3.12/site-packages/proj1_turtlesim/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/lib/python3.12/site-packages/proj1_turtlesim/input.py to input.cpython-312.pyc
+running install_data
+creating /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/share/ament_index
+creating /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/share/ament_index/resource_index/packages
+copying resource/proj1_turtlesim -> /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/share/proj1_turtlesim
+running install_egg_info
+Copying ../build/proj1_turtlesim/proj1_turtlesim.egg-info to /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/lib/python3.12/site-packages/proj1_turtlesim-0.0.0-py3.12.egg-info
+running install_scripts
+Installing input script to /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/lib/proj1_turtlesim
+writing list of installed files to '/home/ubuntu/ros2_ws/src/build/proj1_turtlesim/install.log'

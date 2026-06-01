@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000245] (-) JobUnselected: {'identifier': 'cpp_pubsub_lab3'}
+[0.000389] (-) JobUnselected: {'identifier': 'lab1_turtle_cpp'}
+[0.000496] (-) JobUnselected: {'identifier': 'lab1_turtle_py'}
+[0.000599] (-) JobUnselected: {'identifier': 'proj1_turtlesim'}
+[0.000705] (-) JobUnselected: {'identifier': 'py_pubsub_lab3'}
+[0.000797] (-) EventReactorShutdown: {}

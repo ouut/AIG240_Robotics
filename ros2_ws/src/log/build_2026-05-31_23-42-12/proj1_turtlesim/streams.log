@@ -1,0 +1,38 @@
+[0.422s] Invoking command in '/home/ubuntu/ros2_ws/src/proj1_turtlesim': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ubuntu/ros2_ws/src/build/proj1_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/proj1_turtlesim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/proj1_turtlesim build --build-base /home/ubuntu/ros2_ws/src/build/proj1_turtlesim/build install --record /home/ubuntu/ros2_ws/src/build/proj1_turtlesim/install.log --single-version-externally-managed install_data
+[0.511s] running egg_info
+[0.512s] creating ../build/proj1_turtlesim/proj1_turtlesim.egg-info
+[0.517s] writing ../build/proj1_turtlesim/proj1_turtlesim.egg-info/PKG-INFO
+[0.518s] writing dependency_links to ../build/proj1_turtlesim/proj1_turtlesim.egg-info/dependency_links.txt
+[0.520s] writing entry points to ../build/proj1_turtlesim/proj1_turtlesim.egg-info/entry_points.txt
+[0.521s] writing requirements to ../build/proj1_turtlesim/proj1_turtlesim.egg-info/requires.txt
+[0.521s] writing top-level names to ../build/proj1_turtlesim/proj1_turtlesim.egg-info/top_level.txt
+[0.522s] writing manifest file '../build/proj1_turtlesim/proj1_turtlesim.egg-info/SOURCES.txt'
+[0.536s] reading manifest file '../build/proj1_turtlesim/proj1_turtlesim.egg-info/SOURCES.txt'
+[0.537s] writing manifest file '../build/proj1_turtlesim/proj1_turtlesim.egg-info/SOURCES.txt'
+[0.537s] running build
+[0.538s] running build_py
+[0.538s] creating /home/ubuntu/ros2_ws/src/build/proj1_turtlesim/build
+[0.538s] creating /home/ubuntu/ros2_ws/src/build/proj1_turtlesim/build/lib
+[0.539s] creating /home/ubuntu/ros2_ws/src/build/proj1_turtlesim/build/lib/proj1_turtlesim
+[0.539s] copying proj1_turtlesim/__init__.py -> /home/ubuntu/ros2_ws/src/build/proj1_turtlesim/build/lib/proj1_turtlesim
+[0.540s] copying proj1_turtlesim/input.py -> /home/ubuntu/ros2_ws/src/build/proj1_turtlesim/build/lib/proj1_turtlesim
+[0.540s] running install
+[0.543s] running install_lib
+[0.550s] creating /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/lib/python3.12/site-packages/proj1_turtlesim
+[0.551s] copying /home/ubuntu/ros2_ws/src/build/proj1_turtlesim/build/lib/proj1_turtlesim/__init__.py -> /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/lib/python3.12/site-packages/proj1_turtlesim
+[0.551s] copying /home/ubuntu/ros2_ws/src/build/proj1_turtlesim/build/lib/proj1_turtlesim/input.py -> /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/lib/python3.12/site-packages/proj1_turtlesim
+[0.552s] byte-compiling /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/lib/python3.12/site-packages/proj1_turtlesim/__init__.py to __init__.cpython-312.pyc
+[0.554s] byte-compiling /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/lib/python3.12/site-packages/proj1_turtlesim/input.py to input.cpython-312.pyc
+[0.555s] running install_data
+[0.555s] Sorry: IndentationError: expected an indented block after 'case' statement on line 50 (input.py, line 51)
+[0.555s] creating /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/share/ament_index
+[0.556s] creating /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/share/ament_index/resource_index
+[0.556s] creating /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/share/ament_index/resource_index/packages
+[0.557s] copying resource/proj1_turtlesim -> /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/share/ament_index/resource_index/packages
+[0.557s] copying package.xml -> /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/share/proj1_turtlesim
+[0.558s] running install_egg_info
+[0.565s] Copying ../build/proj1_turtlesim/proj1_turtlesim.egg-info to /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/lib/python3.12/site-packages/proj1_turtlesim-0.0.0-py3.12.egg-info
+[0.571s] running install_scripts
+[0.626s] Installing input script to /home/ubuntu/ros2_ws/src/install/proj1_turtlesim/lib/proj1_turtlesim
+[0.628s] writing list of installed files to '/home/ubuntu/ros2_ws/src/build/proj1_turtlesim/install.log'
+[0.643s] Invoked command in '/home/ubuntu/ros2_ws/src/proj1_turtlesim' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ubuntu/ros2_ws/src/build/proj1_turtlesim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/src/install/proj1_turtlesim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/proj1_turtlesim build --build-base /home/ubuntu/ros2_ws/src/build/proj1_turtlesim/build install --record /home/ubuntu/ros2_ws/src/build/proj1_turtlesim/install.log --single-version-externally-managed install_data
