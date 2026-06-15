@@ -1,0 +1,102 @@
+# environment.ros2.yml — ROS2 Jazzy 全仿真环境 (robostack)
+name: ros2
+channels:
+  - robostack-jazzy
+  - conda-forge
+dependencies:
+  # ============================================================
+  # 核心 — desktop-full 元包拉齐所有基础依赖
+  # ============================================================
+  - ros-jazzy-desktop-full
+  - ros-dev-tools
+  - colcon-common-extensions
+  - cmake
+  - compilers
+  - pkg-config
+  - git
+  - pip
+  # ============================================================
+  # Gazebo Sim 仿真 (Harmonic)
+  # ============================================================
+  - ros-jazzy-ros-gz-sim
+  - ros-jazzy-ros-gz-bridge
+  - ros-jazzy-ros-gz-image
+  - ros-jazzy-ros-gz-interfaces
+  - ros-jazzy-ros-gz-sim-demos
+  - ros-jazzy-simulation
+  # ============================================================
+  # URDF / 建模 / TF
+  # ============================================================
+  - ros-jazzy-xacro
+  - ros-jazzy-urdf
+  - ros-jazzy-sdformat-urdf
+  - ros-jazzy-robot-state-publisher
+  - ros-jazzy-joint-state-publisher
+  - ros-jazzy-joint-state-publisher-gui
+  - ros-jazzy-tf2-tools
+  - ros-jazzy-rqt-tf-tree
+  # ============================================================
+  # ros2_control + 控制器
+  # ============================================================
+  - ros-jazzy-ros2-control
+  - ros-jazzy-ros2-controllers
+  - ros-jazzy-gz-ros2-control
+  - ros-jazzy-ros2controlcli
+  - ros-jazzy-diff-drive-controller
+  - ros-jazzy-joint-state-broadcaster
+  - ros-jazzy-joint-trajectory-controller
+  - ros-jazzy-imu-sensor-broadcaster
+  - ros-jazzy-range-sensor-broadcaster
+  - ros-jazzy-force-torque-sensor-broadcaster
+  - ros-jazzy-forward-command-controller
+  - ros-jazzy-pid-controller
+  - ros-jazzy-mecanum-drive-controller
+  - ros-jazzy-ackermann-steering-controller
+  - ros-jazzy-bicycle-steering-controller
+  - ros-jazzy-tricycle-controller
+  - ros-jazzy-tricycle-steering-controller
+  - ros-jazzy-parallel-gripper-controller
+  - ros-jazzy-gripper-controllers
+  - ros-jazzy-pose-broadcaster
+  # ============================================================
+  # 导航
+  # ============================================================
+  - ros-jazzy-navigation2
+  - ros-jazzy-slam-toolbox
+  - ros-jazzy-robot-localization
+  - ros-jazzy-pointcloud-to-laserscan
+  - ros-jazzy-depthimage-to-laserscan
+  - ros-jazzy-laser-filters
+  # ============================================================
+  # 可视化 / 诊断
+  # ============================================================
+  - ros-jazzy-plotjuggler
+  - ros-jazzy-plotjuggler-ros
+  - ros-jazzy-rqt-common-plugins
+  - ros-jazzy-image-view
+  - ros-jazzy-foxglove-bridge
+  # ============================================================
+  # 工具
+  # ============================================================
+  - ros-jazzy-teleop-twist-keyboard
+  - ros-jazzy-teleop-twist-joy
+  - ros-jazzy-rosbag2
+  - ros-jazzy-rosbridge-suite
+  - ros-jazzy-topic-tools
+  - ros-jazzy-image-transport-plugins
+  # ============================================================
+  # MoveIt2
+  # ============================================================
+  - ros-jazzy-moveit
+  - ros-jazzy-moveit-hybrid-planning
+  - ros-jazzy-moveit-servo
+  - ros-jazzy-moveit-py
+  # ============================================================
+  # 感知
+  # ============================================================
+  - ros-jazzy-perception
+  - ros-jazzy-perception-pcl
+  - ros-jazzy-cv-bridge
+  - ros-jazzy-image-pipeline
+  - ros-jazzy-vision-opencv
+  - ros-jazzy-camera-calibration

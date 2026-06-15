@@ -1,5 +1,0 @@
-  File "/home/ubuntu/ros2_ws/install/py_pubsub_lab3/lib/python3.12/site-packages/py_pubsub_lab3/talker.py", line 7
-    def __init__(self)
-                      ^
-SyntaxError: expected ':'
-

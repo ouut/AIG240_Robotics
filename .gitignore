@@ -11,6 +11,9 @@ ipython_config.py
 venv/
 env/
 .venv
+log/
+build/
+install/
 
 # 忽略环境变量文件
 .env.local
@@ -27,3 +30,4 @@ env/
 .vscode/
 .idea/
 *.swp
+ros2_ws_techer/
