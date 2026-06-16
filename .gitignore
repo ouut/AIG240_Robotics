@@ -12,8 +12,8 @@ venv/
 env/
 .venv
 log/
-log/latest/
-log/latedt_build/
+ros2_ws/log/latest/
+ros2_ws/log/latest_build/
 build/
 install/
 

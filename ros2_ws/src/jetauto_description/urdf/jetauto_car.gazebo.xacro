@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<robot name="jetauto_car" xmlns:xacro="http://ros.org/wiki/xacro">
+    <!-- Gazebo Sim DiffDrive (migrated from ROS1 planar_move plugin) -->
+    <gazebo>
+        <plugin filename="gz-sim-diff-drive-system" name="gz::sim::systems::DiffDrive">
+            <left_joint>wheel_left_front_joint</left_joint>
+            <right_joint>wheel_right_front_joint</right_joint>
+            <wheel_separation>0.17225</wheel_separation>
+            <wheel_radius>0.049</wheel_radius>
+            <odom_publish_frequency>20.0</odom_publish_frequency>
+            <topic>/cmd_vel</topic>
+            <odom_topic>/model/jetauto/odometry</odom_topic>
+        </plugin>
+    </gazebo>
+
+    <!-- JointStatePublisher: publishes joint states for all non-fixed joints -->
+    <gazebo>
+        <plugin filename="gz-sim-joint-state-publisher-system" name="gz::sim::systems::JointStatePublisher">
+        </plugin>
+    </gazebo>
+
+    <xacro:macro name="model_color" params="link_name color_name">
+        <gazebo reference="${link_name}">
+            <material>Gazebo/${color_name}</material>
+            <turnGravityOff>false</turnGravityOff>
+        </gazebo>
+    </xacro:macro>
+
+    <xacro:model_color link_name="base_link"                        color_name="green"/>
+    <xacro:model_color link_name="lidar_link"                       color_name="black"/>
+    <xacro:model_color link_name="back_shell_link"                  color_name="black"/>
+    <xacro:model_color link_name="wheel_right_front_link"           color_name="black"/>
+    <xacro:model_color link_name="wheel_left_front_link"            color_name="black"/>
+    <xacro:model_color link_name="wheel_right_back_link"            color_name="black"/>
+    <xacro:model_color link_name="wheel_left_back_link"             color_name="black"/>
+    <xacro:model_color link_name="mic_link"                         color_name="black"/>
+    <xacro:model_color link_name="speaker_link"                     color_name="black"/>
+</robot>
