@@ -87,12 +87,21 @@ def generate_launch_description():
         output='screen'
     )
 
-    # Spawn robot into Gazebo Sim
+    # Spawn robot into Gazebo Sim — wait for server to be ready first
+    # (on macOS the server takes a few seconds to initialise)
     spawn_robot = ExecuteProcess(
-        cmd=['ros2', 'run', 'ros_gz_sim', 'create',
-             '-name', 'jetauto',
-             '-file', urdf_path,
-             '-x', '0', '-y', '0', '-z', '0.1'],
+        cmd=['bash', '-c',
+             'echo "Waiting for Gazebo server …";'
+             'for i in $(seq 1 30); do'
+             '  gz topic -l >/dev/null 2>&1 && break;'
+             '  echo "  … retry $i/30"; sleep 1;'
+             'done;'
+             'echo "Spawning JetAuto …";'
+             'ros2 run ros_gz_sim create'
+             ' -name jetauto'
+             ' -file ' + urdf_path +
+             ' -x 0 -y 0 -z 0.1'],
+        name='spawn_jetauto',
         output='screen'
     )
 
