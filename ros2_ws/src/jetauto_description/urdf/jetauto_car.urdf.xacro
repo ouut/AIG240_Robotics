@@ -98,7 +98,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.5708 0 0" />
       <geometry>
         <mesh
           filename="package://jetauto_description/meshes/wheel_right_front_link.stl" />
@@ -107,8 +107,8 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 ${wheel_link_length/2.0}"
-        rpy="0 0 0" />
+        xyz="0 ${-wheel_link_length/2.0} 0"
+        rpy="1.5708 0 0" />
       <geometry>
         <cylinder length="${wheel_link_length}" radius="${wheel_link_radius}"/>
       </geometry>
@@ -133,7 +133,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.5708 0 0" />
       <geometry>
         <mesh
           filename="package://jetauto_description/meshes/wheel_left_front_link.stl" />
@@ -142,8 +142,8 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 -${wheel_link_length/2.0}"
-        rpy="0 0 0" />
+        xyz="0 ${wheel_link_length/2.0} 0"
+        rpy="1.5708 0 0" />
       <geometry>
         <cylinder length="${wheel_link_length}" radius="${wheel_link_radius}"/>
       </geometry>
@@ -168,7 +168,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.5708 0 0" />
       <geometry>
         <mesh
           filename="package://jetauto_description/meshes/wheel_right_back_link.stl" />
@@ -177,8 +177,8 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 ${wheel_link_length/2.0}"
-        rpy="0 0 0" />
+        xyz="0 ${-wheel_link_length/2.0} 0"
+        rpy="1.5708 0 0" />
       <geometry>
         <cylinder length="${wheel_link_length}" radius="${wheel_link_radius}"/>
       </geometry>
@@ -204,7 +204,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="0 0 0" />
+        rpy="1.5708 0 0" />
       <geometry>
         <mesh
           filename="package://jetauto_description/meshes/wheel_left_back_link.stl" />
@@ -213,8 +213,8 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 -${wheel_link_length/2.0}"
-        rpy="0 0 0" />
+        xyz="0 ${wheel_link_length/2.0} 0"
+        rpy="1.5708 0 0" />
       <geometry>
         <cylinder length="${wheel_link_length}" radius="${wheel_link_radius}"/>
       </geometry>
